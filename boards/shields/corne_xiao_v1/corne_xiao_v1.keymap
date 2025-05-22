@@ -10,6 +10,11 @@
             key-positions = <0 1>;
             bindings = <&studio_unlock>;
         };
+        combo_emacs_like_esc {
+            timeout-ms = <50>;
+            key-positions = <12 17>;
+            bindings = <&kp ESC>;
+        };
     };
 };
 
