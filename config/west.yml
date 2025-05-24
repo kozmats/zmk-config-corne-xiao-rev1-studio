@@ -2,20 +2,20 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: mctechnology17
-      url-base: https://github.com/mctechnology17
     - name: caksoylar
       url-base: https://github.com/caksoylar
+    - name: infely
+      url-base: https://github.com/infely
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-nice-oled
-      remote: mctechnology17
-      revision: main
     - name: zmk-rgbled-widget
       remote: caksoylar
+      revision: main
+    - name: nice-view-battery
+      remote: infely
       revision: main
   self:
     path: config
