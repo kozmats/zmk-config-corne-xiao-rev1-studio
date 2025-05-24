@@ -15,30 +15,6 @@
 };
 
 / {
-  behaviors {
-    tap_dance_space: tap_dance_space {
-      compatible = "zmk,behavior-tap-dance";
-      #binding-cells = <0>;
-      bindings = <&kp SPACE>, <&rep>; // 1回=SPACE, 2回=REPEAT
-      tapping-term-ms = <200>;
-    };
-  };
-};
-
-/ {
-  behaviors {
-    space_magic: space_magic {
-      compatible = "zmk,behavior-hold-tap";
-      label = "Space/Hold";
-      #binding-cells = <0>;
-      flavor = "hold-preferred";
-      tapping-term-ms = <200>;
-      bindings = <&kp LSHIFT>, <&tap_dance_space>;
-    };
-  };
-};
-
-/ {
         keymap {
                 compatible = "zmk,keymap";
 
