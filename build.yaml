@@ -15,10 +15,10 @@
 include:
 # Revision 1
   - board: seeeduino_xiao_ble
-    shield: corne_xiao_v1_left nice_view_adapter nice_epaper
+    shield: corne_xiao_v1_left nice_view_adapter nice_epaper rgbled_adapter
     snippet: studio-rpc-usb-uart
   - board: seeeduino_xiao_ble
-    shield: corne_xiao_v1_right nice_view_adapter nice_epaper
+    shield: corne_xiao_v1_right nice_view_adapter nice_epaper rgbled_adapter
 
 # Revision 2
   - board: seeeduino_xiao_ble
